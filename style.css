@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+
+  /*Ensemble Header*/
+  header {
+      display: flex;
+  }
+
+  header h1{
+      margin-top: 80px;
+      font-size: 3em;
+  }
+
+  #carte {
+    position: relative;
+    margin-top: 20px;
+    width: 340px;
+    height: 200px;
+  }
+  
+  #carte img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+
+  header li {
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 1.2em;
+  }
+
+  header a {
+      text-decoration: none;
+      color: black;
+  }
+
+  header a:hover{
+      text-decoration: underline;
+  }
+
+  /*Ensemble main */
+  #bandeau{
+    margin-top: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-size: 2.5em;
+    color : #e4b626;
+    background-color:#7c3f3f;
+  }
+
+  /*Ensemble première section */
+  #sect1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0ffff;
+    padding:50px;
+    height : 740px;
+  }
+
+  #photo_vero{
+    position: relative;
+    width : 360px;
+  }
+
+  #photo_vero img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #para1{
+      width : 1000px;
+      height : 400px;
+      font-size: 1.5em;
+      border : 2px solid #7c3f3f;
+      padding:20px;
+      margin-top: 70px;
+      margin-right: 200px;
+  }
+
+  /*Ensemble deuxième section*/
+  #sect2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fefbdc;
+    padding:50px;
+    height: 610px;
+  }
+  
+  #para2{
+    width : 1000px;
+    height : 450px;
+    font-size: 1.5em;
+    border : 2px solid #7c3f3f;
+    padding:20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    }
+
+    #photo_cc{
+        position: relative;
+        width:613px;
+    }
+
+    #photo_cc img{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+/*Ensemble troisième section */
+  #sect3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0ffff;
+    padding:50px;
+    height: 700px;
+  }
+
+  #photo_vetement{
+   position: relative;
+   width:303px;
+   margin-left: 50px;
+  }
+
+  #photo_vetement img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #para3{
+      width : 1000px;
+      height : 250px;
+      font-size: 1.5em;
+      border : 2px solid #7c3f3f;
+      padding:20px;
+      margin-top: 70px;
+      margin-right: 200px;
+  }
+
+  /*Ensemble footer*/
+  footer{
+      display: flex;
+      justify-content: space-between;
+      height: 300px;
+      font-size: 1.2em;
+      background-color: #ececec;
+  }
+
+  #carte_visite{
+      position: relative;
+      width: 400px;
+      margin-left: 20px;
+  }
+
+  #carte_visite img{
+      width: 100%;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+  }
+
+  footer nav ul{
+      display: flex;
+      width: 500px;
+      margin-top: 100px;
+  }
+
+  footer li {
+      display: inline-block;
+  }
+
+  footer li i {
+      font-size: 2em;
+  }
+
+  footer p {
+      margin-top: 100px;
+      margin-right: 50px;
+  }
